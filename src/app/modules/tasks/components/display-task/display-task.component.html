@@ -1,0 +1,10 @@
+<div >
+  <button (click)="routTo(task.id)">
+    <h4>{{task.title}}</h4>
+      <p>Need: {{task.items}}  </p>
+      <p>{{ task.description }} </p>
+      <button (click)="onClickDelete()">Delete</button>
+      
+    </button>
+
+  </div>

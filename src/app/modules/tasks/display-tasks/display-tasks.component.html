@@ -1,0 +1,9 @@
+<div class="movies">
+    <h2>
+      Tasks:
+    </h2>
+    
+    <app-display-task *ngFor="let task of tasks" [task]="task" (TaskDeleted)="onDeleteTask($event)">
+    
+    </app-display-task>
+  </div>
